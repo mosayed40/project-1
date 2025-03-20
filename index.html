@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>project test</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="container" dir="rtl">
+    <div class="container">
       <div class="nav">
         <div class="Profile">
           <img src="assets/photos/m1.jpg" alt="photo" />
@@ -16,29 +20,64 @@
         <div class="existing">
           <ul>
             <li>
-              <img src="/assets/icons/icons8-home.svg" />
-              <h3><a href="#">Home</a></h3>
+              <a href="#" id="home">
+                <i class="fas fa-home"></i>
+                <p>Home</p>
+              </a>
             </li>
             <li>
-              <img src="assets/icons/star.png" alt="photo" />
-              <h3><a href="#">star</a></h3>
+              <a href="#">
+                <i class="fas fa-star"></i>
+                <p>Star</p>
+              </a>
             </li>
             <li>
-              <h3><a href="#">Home</a></h3>
+              <a href="#">
+                <i class="fas fa-chart-pie"></i>
+                <p>charts</p>
+              </a>
             </li>
             <li>
-              <h3><a href="#">Home</a></h3>
+              <a href="#">
+                <i class="fas fa-pen"></i>
+                <p>posts</p>
+              </a>
             </li>
             <li>
-              <h3><a href="#">Home</a></h3>
+              <a href="#">
+                <i class="fas fa-table"></i>
+                <p>products</p>
+              </a>
             </li>
             <li>
-              <h3><a href="#">log out</a></h3>
+              <a href="#" id="max1">
+                <p>+</p>
+              </a>
             </li>
           </ul>
         </div>
       </div>
-      <div class="main"></div>
+      <div class="main">
+        <div id="header">
+          <h1>header</h1>
+        </div>
+        <div></div>
+        <div class="creat">
+          <div>
+            <!-- <a href="#" id="max1">
+              <p>+</p>
+            </a> -->
+          </div>
+        </div>
+        <div class="inpu">
+          <div class="but">
+            <button id="delete">U</button>
+            <button id="update">D</button>
+          </div>
+
+          <input id="input" type="text" placeholder="   إضافة مهمه" dir="rtl" />
+        </div>
+      </div>
     </div>
     <script src="Age.js"></script>
   </body>
